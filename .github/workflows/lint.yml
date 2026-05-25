@@ -32,7 +32,7 @@ jobs:
       - name: Run lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --cache --max-cache-age 14d --no-progress --exclude-mail --exclude-path node_modules './**/*.md'
+          args: --cache --max-cache-age 14d --no-progress --exclude-path node_modules './**/*.md'
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
