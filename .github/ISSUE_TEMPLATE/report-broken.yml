@@ -1,0 +1,38 @@
+name: Report a Broken or Stale Entry
+description: An existing entry no longer meets the bar (archived, abandoned, no longer local, etc.).
+title: "[Stale]: "
+labels: ["stale-entry"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry?
+      placeholder: e.g. "Coqui TTS" in the Speech section
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: What's wrong?
+      options:
+        - Link is dead
+        - Project is archived or abandoned
+        - Project is no longer open source / no longer has a free local tier
+        - Project no longer runs locally
+        - Project has been superseded by a clearly better alternative
+        - Description is inaccurate
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Link to evidence (last commit date, archive notice, license change, etc.).
+    validations:
+      required: true
+  - type: textarea
+    id: replacement
+    attributes:
+      label: Replacement suggestion (optional)
+      description: If a clearly better project exists, mention it here.

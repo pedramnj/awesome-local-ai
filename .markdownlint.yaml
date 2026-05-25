@@ -1,0 +1,20 @@
+default: true
+
+# Headings can match content, no need to be unique across long ToC
+MD024:
+  siblings_only: true
+
+# Allow long lines (URLs, tables, etc.)
+MD013: false
+
+# Allow inline HTML for badges
+MD033: false
+
+# Allow duplicate first heading at top of README
+MD025: false
+
+# Allow trailing punctuation in headings (we use them sparingly)
+MD026: false
+
+# Bare URLs are fine inside code blocks
+MD034: false

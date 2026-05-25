@@ -1,0 +1,74 @@
+name: Add a Project
+description: Suggest a project to add to the list.
+title: "[Add]: "
+labels: ["add-entry"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: e.g. Ollama
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      description: Link to the canonical repo or homepage.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Which section does this fit in?
+      options:
+        - Local LLM Runtimes
+        - Desktop Apps & Web UIs
+        - Code Assistants
+        - RAG & Knowledge
+        - Agents
+        - Image Generation
+        - Speech (TTS & STT)
+        - Vision, OCR & Document AI
+        - Embeddings
+        - Vector Databases
+        - Mobile & On-Device
+        - Inference Optimization & Quantization
+        - Models & Model Hubs
+        - Benchmarks & Evaluation
+        - Self-Hosting Stacks
+        - Other (specify below)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-sentence description
+      description: How it would appear in the list. Neutral, concrete, no marketing language.
+      placeholder: "C++ inference engine for running quantized LLMs on CPU, CUDA, and Metal."
+    validations:
+      required: true
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: Meets the bar
+      description: All of these must be true. See CONTRIBUTING.md for full criteria.
+      options:
+        - label: Open source, or has a usable free local tier.
+          required: true
+        - label: Runs locally on user-owned hardware (not cloud SaaS).
+          required: true
+        - label: Actively maintained (commit in the last ~6 months) or feature-complete.
+          required: true
+        - label: Documented well enough to install in under an hour.
+          required: true
+        - label: Substantively different from anything already on the list.
+          required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Why does this belong?
+      description: One or two sentences explaining what makes it worth adding, especially relative to similar entries already listed.
+    validations:
+      required: true
