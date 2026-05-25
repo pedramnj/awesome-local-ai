@@ -22,7 +22,7 @@ npm run sync
 
 ## Architecture
 
-```
+```text
 site/
 ├── scripts/
 │   └── parse-readme.mjs       # Parses ../README.md → src/data/projects.json
