@@ -3,3 +3,6 @@
 # missing files. Skip the file:// scheme entirely; we don't intentionally link
 # to any local files.
 ^file://
+
+# Reddit blocks non-browser user agents with 403. Links work for humans.
+^https?://(www\.|old\.)?reddit\.com/
