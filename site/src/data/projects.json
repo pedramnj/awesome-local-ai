@@ -1,0 +1,1194 @@
+{
+  "generatedAt": "2026-05-25T20:44:30.408Z",
+  "categories": [
+    {
+      "slug": "local-llm-runtimes",
+      "name": "Local LLM Runtimes",
+      "order": 0
+    },
+    {
+      "slug": "desktop-apps-web-uis",
+      "name": "Desktop Apps & Web UIs",
+      "order": 1
+    },
+    {
+      "slug": "code-assistants",
+      "name": "Code Assistants",
+      "order": 2
+    },
+    {
+      "slug": "rag-knowledge",
+      "name": "RAG & Knowledge",
+      "order": 3
+    },
+    {
+      "slug": "agents",
+      "name": "Agents",
+      "order": 4
+    },
+    {
+      "slug": "image-generation",
+      "name": "Image Generation",
+      "order": 5
+    },
+    {
+      "slug": "speech-tts-stt",
+      "name": "Speech: TTS & STT",
+      "order": 6
+    },
+    {
+      "slug": "vision-ocr-document-ai",
+      "name": "Vision, OCR & Document AI",
+      "order": 7
+    },
+    {
+      "slug": "embeddings",
+      "name": "Embeddings",
+      "order": 8
+    },
+    {
+      "slug": "vector-databases-local-friendly",
+      "name": "Vector Databases (Local-Friendly)",
+      "order": 9
+    },
+    {
+      "slug": "mobile-on-device",
+      "name": "Mobile & On-Device",
+      "order": 10
+    },
+    {
+      "slug": "inference-optimization-quantization",
+      "name": "Inference Optimization & Quantization",
+      "order": 11
+    },
+    {
+      "slug": "models-model-hubs",
+      "name": "Models & Model Hubs",
+      "order": 12
+    },
+    {
+      "slug": "benchmarks-evaluation",
+      "name": "Benchmarks & Evaluation",
+      "order": 13
+    },
+    {
+      "slug": "self-hosting-stacks",
+      "name": "Self-Hosting Stacks",
+      "order": 14
+    }
+  ],
+  "projects": [
+    {
+      "slug": "local-llm-runtimes-llama-cpp",
+      "name": "llama.cpp",
+      "url": "https://github.com/ggerganov/llama.cpp",
+      "description": "The foundational C/C++ inference engine. GGUF format, runs on CPU, CUDA, Metal, Vulkan, ROCm. Powers most of the projects below.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "description": "One-command model management on top of llama.cpp. The easiest \"from zero to chatting\" experience on macOS, Linux, and Windows.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-lm-studio",
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "description": "Polished desktop app, GUI model browser, standard chat-completion API compatible local server. Free for personal use.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-jan",
+      "name": "Jan",
+      "url": "https://jan.ai",
+      "description": "Fully open-source desktop alternative to LM Studio. Cross-platform, plugin system, MIT-licensed.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-vllm",
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "description": "High-throughput, production-grade inference server. PagedAttention, tensor parallelism, standard chat-completion API compatible API. Pick this when you're serving more than one user.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-sglang",
+      "name": "SGLang",
+      "url": "https://github.com/sgl-project/sglang",
+      "description": "Newer high-throughput serving runtime focused on structured generation and complex prompting. Often faster than vLLM on supported models.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-text-generation-webui",
+      "name": "text-generation-webui",
+      "url": "https://github.com/oobabooga/text-generation-webui",
+      "description": "Gradio web UI with broad backend support (Transformers, llama.cpp, ExLlama). The Swiss Army knife.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-koboldcpp",
+      "name": "koboldcpp",
+      "url": "https://github.com/LostRuins/koboldcpp",
+      "description": "Single-binary llama.cpp distribution with a friendly UI, popular for story writing and roleplay.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-mlx-lm",
+      "name": "mlx-lm",
+      "url": "https://github.com/ml-explore/mlx-examples/tree/main/llms",
+      "description": "Apple's MLX framework for native Apple Silicon inference. Best raw throughput on M-series Macs.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-mlc-llm",
+      "name": "MLC LLM",
+      "url": "https://github.com/mlc-ai/mlc-llm",
+      "description": "Compile LLMs to run on phones, browsers, and embedded devices via TVM.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-localai",
+      "name": "LocalAI",
+      "url": "https://github.com/mudler/LocalAI",
+      "description": "Drop-in replacement for the standard chat-completion API. Supports LLMs, image gen, TTS, STT, embeddings in one binary.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-exllamav2",
+      "name": "exllamav2",
+      "url": "https://github.com/turboderp-org/exllamav2",
+      "description": "Fast inference of quantized models on consumer NVIDIA GPUs. Excellent for long-context use cases.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-mistral-rs",
+      "name": "mistral.rs",
+      "url": "https://github.com/EricLBuehler/mistral.rs",
+      "description": "Rust-based inference engine, focus on speed and a clean API. CUDA, Metal, CPU.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-llamafile",
+      "name": "llamafile",
+      "url": "https://github.com/Mozilla-Ocho/llamafile",
+      "description": "Distribute a model as a single executable that runs everywhere. Magic for sharing.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-nitro",
+      "name": "Nitro",
+      "url": "https://github.com/janhq/cortex.cpp) (now Cortex",
+      "description": "Embeddable inference engine from the Jan team.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-candle",
+      "name": "candle",
+      "url": "https://github.com/huggingface/candle",
+      "description": "Hugging Face's minimalist ML framework in Rust. Good for embedding inference into Rust apps.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "local-llm-runtimes-tensorrt-llm",
+      "name": "TensorRT-LLM",
+      "url": "https://github.com/NVIDIA/TensorRT-LLM",
+      "description": "NVIDIA's high-performance inference library. Squeeze maximum tokens/sec out of a datacenter GPU.",
+      "category": "local-llm-runtimes",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-open-webui",
+      "name": "Open WebUI",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "The de facto self-hosted chat UI. Multi-user, RAG built in, plugin system, runs on Docker in one command.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-librechat",
+      "name": "LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "description": "Polished multi-user chat UI. Bring-your-own keys for cloud models, but pairs cleanly with local backends.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-anythingllm",
+      "name": "AnythingLLM",
+      "url": "https://github.com/Mintplex-Labs/anything-llm",
+      "description": "All-in-one desktop app: chat + workspaces + RAG over your documents. Available as desktop binary or self-hosted server.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-gpt4all",
+      "name": "GPT4All",
+      "url": "https://gpt4all.io",
+      "description": "Friendly desktop chat client with a built-in model library. Solid first install for non-technical users.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-msty",
+      "name": "Msty",
+      "url": "https://msty.app",
+      "description": "Slick cross-platform chat app supporting local and cloud models side-by-side. Closed source but free tier is generous.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-h2ogpt",
+      "name": "h2oGPT",
+      "url": "https://github.com/h2oai/h2ogpt",
+      "description": "Enterprise-flavored local LLM + RAG platform from H2O.ai.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-lobe-chat",
+      "name": "Lobe Chat",
+      "url": "https://github.com/lobehub/lobe-chat",
+      "description": "Pretty chat UI with plugin system; can be pointed at any standard chat-completion API compatible local server.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-big-agi",
+      "name": "Big-AGI",
+      "url": "https://github.com/enricoros/big-AGI",
+      "description": "Feature-dense web UI: branching conversations, beam search, persona library.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-chatbox",
+      "name": "chatbox",
+      "url": "https://github.com/chatboxai/chatbox",
+      "description": "Cross-platform desktop client; speaks to local APIs.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-page-assist",
+      "name": "Page Assist",
+      "url": "https://github.com/n4ze3m/page-assist",
+      "description": "Browser extension that lets local LLMs see your current page. Surprisingly useful.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-enchanted",
+      "name": "Enchanted",
+      "url": "https://github.com/AugustDev/enchanted",
+      "description": "Native macOS / iOS app for talking to Ollama instances.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "desktop-apps-web-uis-sanctum",
+      "name": "Sanctum",
+      "url": "https://sanctum.ai",
+      "description": "macOS-native chat app, privacy-first framing.",
+      "category": "desktop-apps-web-uis",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-continue",
+      "name": "Continue",
+      "url": "https://continue.dev",
+      "description": "Open-source autocomplete + chat for VS Code and JetBrains. Pluggable backend (Ollama, LM Studio, vLLM, llama.cpp, anything standard chat-completion API compatible).",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-tabby",
+      "name": "Tabby",
+      "url": "https://github.com/TabbyML/tabby",
+      "description": "Self-hosted code completion server (Rust). Team-scale alternative to cloud autocomplete services.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-twinny",
+      "name": "twinny",
+      "url": "https://github.com/twinnydotdev/twinny",
+      "description": "VS Code extension specifically built for Ollama-backed autocomplete and chat.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-aider",
+      "name": "Aider",
+      "url": "https://github.com/Aider-AI/aider",
+      "description": "Terminal-based pair programmer. Works fully offline with any local standard chat-completion API compatible endpoint.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-cline",
+      "name": "Cline",
+      "url": "https://github.com/cline/cline",
+      "description": "Agentic coding extension for VS Code; supports local model endpoints.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-llama-coder",
+      "name": "llama-coder",
+      "url": "https://github.com/ex3ndr/llama-coder",
+      "description": "VS Code extension; Ollama-only, focused on completions.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-privy",
+      "name": "Privy",
+      "url": "https://github.com/srikanth235/privy",
+      "description": "Open-source autocomplete + chat focused on privacy.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-refact-ai",
+      "name": "Refact.ai",
+      "url": "https://github.com/smallcloudai/refact",
+      "description": "Open-source self-hosted code assistant (chat + completions + agents).",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "code-assistants-codegpt",
+      "name": "CodeGPT",
+      "url": "https://codegpt.co",
+      "description": "Pluggable VS Code / JetBrains extension; supports local providers.",
+      "category": "code-assistants",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-privategpt",
+      "name": "PrivateGPT",
+      "url": "https://github.com/zylon-ai/private-gpt",
+      "description": "Pioneering \"chat with your docs, 100% local\" project. Battle-tested foundation.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-kotaemon",
+      "name": "kotaemon",
+      "url": "https://github.com/Cinnamon/kotaemon",
+      "description": "Open-source RAG UI focused on document Q&A; good citation/visualization story.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-khoj",
+      "name": "Khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "description": "Self-hostable AI second brain. Index notes, docs, email; queryable from Obsidian, Emacs, web.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-docsgpt",
+      "name": "DocsGPT",
+      "url": "https://github.com/arc53/DocsGPT",
+      "description": "RAG specifically for project documentation. Embeddable widget for your docs site.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-onyx",
+      "name": "Onyx",
+      "url": "https://github.com/onyx-dot-app/onyx) (formerly Danswer",
+      "description": "Open-source enterprise search and chat across SaaS connectors. Self-hostable.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-verba",
+      "name": "Verba",
+      "url": "https://github.com/weaviate/Verba",
+      "description": "Weaviate's reference RAG app. Good code to learn from.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-ragflow",
+      "name": "RAGFlow",
+      "url": "https://github.com/infiniflow/ragflow",
+      "description": "Document-aware RAG with strong table/PDF parsing.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-cognita",
+      "name": "Cognita",
+      "url": "https://github.com/truefoundry/cognita",
+      "description": "Modular RAG framework with UI.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-llamaindex",
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "description": "Library for building RAG and structured-data agents. Local-first if you wire it up that way.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "rag-knowledge-haystack",
+      "name": "Haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "Production-oriented framework for search, RAG, and agents.",
+      "category": "rag-knowledge",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-letta",
+      "name": "Letta",
+      "url": "https://github.com/letta-ai/letta) (formerly MemGPT",
+      "description": "Stateful agents with long-term memory. Local-model friendly.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-open-interpreter",
+      "name": "Open Interpreter",
+      "url": "https://github.com/OpenInterpreter/open-interpreter",
+      "description": "Run code on your machine via natural language. Local-model mode is well-supported.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-crewai",
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "description": "Multi-agent orchestration framework. Pair with local standard chat-completion API compatible endpoint.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-autogen",
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
+      "description": "Microsoft's conversation-driven agent framework. Local backends supported.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-langgraph",
+      "name": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Graph-based agent runtime from the LangChain team.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-pydantic-ai",
+      "name": "Pydantic AI",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "description": "Type-safe agent framework; works with any local standard chat-completion API compatible server.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-smolagents",
+      "name": "smolagents",
+      "url": "https://github.com/huggingface/smolagents",
+      "description": "Hugging Face's minimalist agent library; code-first agents.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "agents-agentkit",
+      "name": "AgentKit",
+      "url": "https://github.com/BCG-X-Official/agentkit",
+      "description": "Full-stack starter for production-grade agents.",
+      "category": "agents",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-automatic1111-stable-diffusion-webui",
+      "name": "AUTOMATIC1111 stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "description": "The classic, feature-dense Stable Diffusion web UI.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-comfyui",
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "description": "Node-graph UI for diffusion pipelines. The serious-user choice; everything new lands here first.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-fooocus",
+      "name": "Fooocus",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "description": "Friction-free SDXL image generation. No prompt-engineering tax.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-invokeai",
+      "name": "InvokeAI",
+      "url": "https://github.com/invoke-ai/InvokeAI",
+      "description": "Polished UI, good for professional workflows, strong canvas/inpaint UX.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-sd-next",
+      "name": "SD.Next",
+      "url": "https://github.com/vladmandic/sdnext",
+      "description": "Maintained fork of A1111 with broader backend and model support.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-stable-diffusion-webui-forge",
+      "name": "Stable Diffusion WebUI Forge",
+      "url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+      "description": "Performance-focused A1111 fork by the ControlNet author.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-diffusionbee",
+      "name": "DiffusionBee",
+      "url": "https://diffusionbee.com",
+      "description": "Native macOS app. One-click install.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-diffusers",
+      "name": "Diffusers",
+      "url": "https://github.com/huggingface/diffusers",
+      "description": "Hugging Face library; build your own pipelines in Python.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-swarmui",
+      "name": "SwarmUI",
+      "url": "https://github.com/mcmonkeyprojects/SwarmUI",
+      "description": "Modular UI built on ComfyUI as the backend.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "image-generation-krita-ai-diffusion",
+      "name": "krita-ai-diffusion",
+      "url": "https://github.com/Acly/krita-ai-diffusion",
+      "description": "Diffusion inside Krita. Pro illustrators love it.",
+      "category": "image-generation",
+      "subcategory": null
+    },
+    {
+      "slug": "speech-tts-stt-whisper-cpp",
+      "name": "whisper.cpp",
+      "url": "https://github.com/ggerganov/whisper.cpp",
+      "description": "Pure C/C++ port of Whisper. Runs anywhere, even Raspberry Pi.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-faster-whisper",
+      "name": "faster-whisper",
+      "url": "https://github.com/SYSTRAN/faster-whisper",
+      "description": "CTranslate2 reimplementation, ~4× faster than reference Whisper.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-whisperx",
+      "name": "WhisperX",
+      "url": "https://github.com/m-bain/whisperX",
+      "description": "Whisper + word-level timestamps + speaker diarization.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-whisper-timestamped",
+      "name": "whisper-timestamped",
+      "url": "https://github.com/linto-ai/whisper-timestamped",
+      "description": "Word-accurate timestamps without retraining.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-vosk",
+      "name": "Vosk",
+      "url": "https://alphacephei.com/vosk/",
+      "description": "Offline speech recognition in many languages. Tiny models, great for embedded.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-moonshine",
+      "name": "Moonshine",
+      "url": "https://github.com/usefulsensors/moonshine",
+      "description": "Fast STT for resource-constrained devices.",
+      "category": "speech-tts-stt",
+      "subcategory": "speech-to-text"
+    },
+    {
+      "slug": "speech-tts-stt-piper",
+      "name": "Piper",
+      "url": "https://github.com/rhasspy/piper",
+      "description": "Fast neural TTS, runs on Raspberry Pi. The default choice for offline voice assistants.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-coqui-tts",
+      "name": "Coqui TTS",
+      "url": "https://github.com/coqui-ai/TTS",
+      "description": "Battle-tested TTS toolkit. Project is archived but the code still works.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-f5-tts",
+      "name": "F5-TTS",
+      "url": "https://github.com/SWivid/F5-TTS",
+      "description": "Excellent voice-cloning TTS with short reference clips.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-kokoro",
+      "name": "Kokoro",
+      "url": "https://huggingface.co/hexgrad/Kokoro-82M",
+      "description": "82M-parameter TTS model with surprisingly good quality.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-styletts-2",
+      "name": "StyleTTS 2",
+      "url": "https://github.com/yl4579/StyleTTS2",
+      "description": "High-quality, style-controllable TTS.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-openvoice",
+      "name": "OpenVoice",
+      "url": "https://github.com/myshell-ai/OpenVoice",
+      "description": "Voice cloning with cross-lingual support.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-xtts-v2",
+      "name": "XTTS-v2",
+      "url": "https://huggingface.co/coqui/XTTS-v2",
+      "description": "Multi-lingual zero-shot voice cloning.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-melotts",
+      "name": "MeloTTS",
+      "url": "https://github.com/myshell-ai/MeloTTS",
+      "description": "Multi-language TTS optimized for CPU inference.",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "speech-tts-stt-bark",
+      "name": "Bark",
+      "url": "https://github.com/suno-ai/bark",
+      "description": "Generative audio model (speech + nonverbal sounds + music).",
+      "category": "speech-tts-stt",
+      "subcategory": "text-to-speech"
+    },
+    {
+      "slug": "vision-ocr-document-ai-florence-2",
+      "name": "Florence-2",
+      "url": "https://huggingface.co/microsoft/Florence-2-large",
+      "description": "Microsoft's multi-task vision model. Captioning, detection, OCR, grounding — all in one small model.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-moondream",
+      "name": "Moondream",
+      "url": "https://github.com/vikhyat/moondream",
+      "description": "Tiny (sub-2B) vision-language model. Runs on a phone.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-llava",
+      "name": "LLaVA",
+      "url": "https://github.com/haotian-liu/LLaVA",
+      "description": "Open vision-language assistant.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-bakllava",
+      "name": "BakLLaVA",
+      "url": "https://github.com/SkunkworksAI/BakLLaVA",
+      "description": "LLaVA on Mistral.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-surya",
+      "name": "surya",
+      "url": "https://github.com/VikParuchuri/surya",
+      "description": "Multilingual OCR, layout analysis, reading order detection.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-docling",
+      "name": "docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "IBM's document parsing toolkit (PDF, DOCX, etc. → structured JSON).",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-marker",
+      "name": "Marker",
+      "url": "https://github.com/VikParuchuri/marker",
+      "description": "PDF → clean Markdown. Tables, math, images preserved.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-doctr",
+      "name": "DocTR",
+      "url": "https://github.com/mindee/doctr",
+      "description": "OCR with pretrained models in PyTorch and TensorFlow.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "vision-ocr-document-ai-paddleocr",
+      "name": "PaddleOCR",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "description": "Mature, multilingual OCR toolkit.",
+      "category": "vision-ocr-document-ai",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-nomic-embed-text",
+      "name": "nomic-embed-text",
+      "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+      "description": "Open-weights long-context (8K) embedding model. Strong default.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-bge-large-bge-m3",
+      "name": "bge-large / bge-m3",
+      "url": "https://huggingface.co/BAAI/bge-m3",
+      "description": "BAAI's general-purpose embedding family; multilingual variants.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-mxbai-embed-large",
+      "name": "mxbai-embed-large",
+      "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+      "description": "Strong English embeddings, runs in Ollama directly.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-stella",
+      "name": "Stella",
+      "url": "https://huggingface.co/dunzhang/stella_en_1.5B_v5",
+      "description": "Compact, high-MTEB-rank embedding family.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-arctic-embed",
+      "name": "Arctic Embed",
+      "url": "https://huggingface.co/Snowflake/snowflake-arctic-embed-l",
+      "description": "Snowflake's retrieval-tuned models.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "embeddings-jina-embeddings-v3",
+      "name": "jina-embeddings-v3",
+      "url": "https://huggingface.co/jinaai/jina-embeddings-v3",
+      "description": "Multilingual, multi-task. Open weights, commercial-friendly.",
+      "category": "embeddings",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-qdrant",
+      "name": "Qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Rust-based vector DB. Single binary, excellent docs, hybrid search.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-chroma",
+      "name": "Chroma",
+      "url": "https://github.com/chroma-core/chroma",
+      "description": "The default \"just works\" embeddings DB for prototyping.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-lancedb",
+      "name": "LanceDB",
+      "url": "https://github.com/lancedb/lancedb",
+      "description": "Embedded vector DB built on Lance columnar format. Lives in your app process.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-milvus",
+      "name": "Milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "description": "Scalable, production-grade. Has a lightweight `milvus-lite` mode.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-weaviate",
+      "name": "Weaviate",
+      "url": "https://github.com/weaviate/weaviate",
+      "description": "Mature, hybrid lexical + vector. Docker-friendly self-host.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-pgvector",
+      "name": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "description": "Vector extension for PostgreSQL. The boring, reliable choice.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-sqlite-vec",
+      "name": "sqlite-vec",
+      "url": "https://github.com/asg017/sqlite-vec",
+      "description": "Vector search inside SQLite. Tiny, embedded, no server.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-vespa",
+      "name": "Vespa",
+      "url": "https://github.com/vespa-engine/vespa",
+      "description": "Engineering-heavy but extremely capable hybrid search engine.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "vector-databases-local-friendly-txtai",
+      "name": "txtai",
+      "url": "https://github.com/neuml/txtai",
+      "description": "All-in-one semantic search + workflows library; embedded vector store included.",
+      "category": "vector-databases-local-friendly",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-pocketpal",
+      "name": "PocketPal",
+      "url": "https://github.com/a-ghorbani/pocketpal-ai",
+      "description": "Cross-platform mobile chat app. Bring your own GGUFs.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-llmfarm",
+      "name": "LLMFarm",
+      "url": "https://github.com/guinmoon/LLMFarm",
+      "description": "iOS llama.cpp wrapper.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-maid",
+      "name": "Maid",
+      "url": "https://github.com/Mobile-Artificial-Intelligence/maid",
+      "description": "Cross-platform Flutter app.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-layla",
+      "name": "Layla",
+      "url": "https://www.layla-network.ai",
+      "description": "Privacy-focused Android assistant.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-apple-foundation-models",
+      "name": "Apple Foundation Models",
+      "url": "https://developer.apple.com/documentation/foundationmodels",
+      "description": "Apple's on-device model API (iOS 18.2+). Free, no API key, no data leaves the device.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "mobile-on-device-picollm",
+      "name": "picoLLM",
+      "url": "https://github.com/Picovoice/picollm",
+      "description": "Mobile-first compressed-LLM inference SDK from Picovoice.",
+      "category": "mobile-on-device",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-autoawq",
+      "name": "AutoAWQ",
+      "url": "https://github.com/casper-hansen/AutoAWQ",
+      "description": "Activation-aware weight quantization.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-autogptq",
+      "name": "AutoGPTQ",
+      "url": "https://github.com/AutoGPTQ/AutoGPTQ",
+      "description": "Classic GPTQ quantization, well-supported.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-bitsandbytes",
+      "name": "bitsandbytes",
+      "url": "https://github.com/bitsandbytes-foundation/bitsandbytes",
+      "description": "On-the-fly 4-bit / 8-bit loading for HF models.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-hqq",
+      "name": "hqq",
+      "url": "https://github.com/mobiusml/hqq",
+      "description": "Half-Quadratic Quantization. Fast PTQ, no calibration data.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-optimum",
+      "name": "Optimum",
+      "url": "https://github.com/huggingface/optimum",
+      "description": "Hugging Face's optimization layer (ONNX, TensorRT, OpenVINO).",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-onnxruntime-genai",
+      "name": "onnxruntime-genai",
+      "url": "https://github.com/microsoft/onnxruntime-genai",
+      "description": "Microsoft's ONNX-based generative inference runtime.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "inference-optimization-quantization-ipex-llm",
+      "name": "IPEX-LLM",
+      "url": "https://github.com/intel/ipex-llm",
+      "description": "Intel's LLM acceleration for CPU and Arc GPUs.",
+      "category": "inference-optimization-quantization",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-hugging-face-hub",
+      "name": "Hugging Face Hub",
+      "url": "https://huggingface.co/models",
+      "description": "The de facto model registry. Filter by `gguf`, `mlx`, `awq`, `gptq` for ready-to-run quantizations.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-ollama-model-library",
+      "name": "Ollama Model Library",
+      "url": "https://ollama.com/library",
+      "description": "Curated, pre-packaged models with one-command pulls.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-thebloke-archived",
+      "name": "TheBloke (archived)",
+      "url": "https://huggingface.co/TheBloke",
+      "description": "Historical archive of community quantizations. Still useful for older models.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-bartowski",
+      "name": "bartowski",
+      "url": "https://huggingface.co/bartowski",
+      "description": "Current go-to community quantizer for newer models.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-unsloth",
+      "name": "unsloth",
+      "url": "https://huggingface.co/unsloth",
+      "description": "Pre-quantized, fine-tune-ready model variants.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-mlx-community",
+      "name": "mlx-community",
+      "url": "https://huggingface.co/mlx-community",
+      "description": "Apple Silicon-optimized model conversions.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "models-model-hubs-lmsys-chat-1m",
+      "name": "LMSYS Chat-1M",
+      "url": "https://huggingface.co/datasets/lmsys/lmsys-chat-1m",
+      "description": "Real conversation dataset for evaluation.",
+      "category": "models-model-hubs",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-open-llm-leaderboard",
+      "name": "Open LLM Leaderboard",
+      "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+      "description": "Reference HF leaderboard. Synthetic but useful baseline.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-livebench",
+      "name": "LiveBench",
+      "url": "https://livebench.ai",
+      "description": "Contamination-resistant, refreshed monthly.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-lmsys-chatbot-arena",
+      "name": "LMSYS Chatbot Arena",
+      "url": "https://lmarena.ai",
+      "description": "Human-vote pairwise leaderboard. The closest thing to \"how good does it feel\".",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-lm-evaluation-harness",
+      "name": "lm-evaluation-harness",
+      "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+      "description": "The standard library for running benchmarks locally.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-open-medical-llm-leaderboard",
+      "name": "Open Medical-LLM Leaderboard",
+      "url": "https://huggingface.co/spaces/openlifescienceai/open_medical_llm_leaderboard",
+      "description": "Domain-specific evaluation.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-bigcodebench",
+      "name": "BigCodeBench",
+      "url": "https://github.com/bigcode-project/bigcodebench",
+      "description": "Coding benchmark for code-trained models.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "benchmarks-evaluation-mteb",
+      "name": "MTEB",
+      "url": "https://huggingface.co/spaces/mteb/leaderboard",
+      "description": "Massive Text Embedding Benchmark. Pick your embedding model from here.",
+      "category": "benchmarks-evaluation",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-open-webui-ollama-compose",
+      "name": "Open WebUI + Ollama Compose",
+      "url": "https://docs.openwebui.com/getting-started/quick-start/",
+      "description": "Reference one-command stack.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-harbor",
+      "name": "Harbor",
+      "url": "https://github.com/av/harbor",
+      "description": "Containerized \"all the local AI tools\" launcher with profiles for hundreds of services.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-cog",
+      "name": "Cog",
+      "url": "https://github.com/replicate/cog",
+      "description": "Containers for ML, built by Replicate. Good for packaging your own models.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-helmet",
+      "name": "Helmet",
+      "url": "https://github.com/yusing/godoxy",
+      "description": "Reverse-proxy + auto-cert wrapper popular for self-hosting LLM stacks.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-pinokio",
+      "name": "Pinokio",
+      "url": "https://pinokio.computer/",
+      "description": "Browser-based installer for hundreds of local AI apps. Great for quick experiments.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-gpustack",
+      "name": "GPUStack",
+      "url": "https://github.com/gpustack/gpustack",
+      "description": "Multi-node GPU cluster manager for self-hosted inference at small-team scale.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    },
+    {
+      "slug": "self-hosting-stacks-kubeai",
+      "name": "KubeAI",
+      "url": "https://github.com/substratusai/kubeai",
+      "description": "Kubernetes operator for serving LLMs in a cluster.",
+      "category": "self-hosting-stacks",
+      "subcategory": null
+    }
+  ]
+}

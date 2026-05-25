@@ -45,15 +45,15 @@ The engines that actually load weights and produce tokens. Pick one as the base 
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) - The foundational C/C++ inference engine. GGUF format, runs on CPU, CUDA, Metal, Vulkan, ROCm. Powers most of the projects below.
 - [Ollama](https://ollama.com) - One-command model management on top of llama.cpp. The easiest "from zero to chatting" experience on macOS, Linux, and Windows.
-- [LM Studio](https://lmstudio.ai) - Polished desktop app, GUI model browser, OpenAI-compatible local server. Free for personal use.
+- [LM Studio](https://lmstudio.ai) - Polished desktop app, GUI model browser, standard chat-completion API compatible local server. Free for personal use.
 - [Jan](https://jan.ai) - Fully open-source desktop alternative to LM Studio. Cross-platform, plugin system, MIT-licensed.
-- [vLLM](https://github.com/vllm-project/vllm) - High-throughput, production-grade inference server. PagedAttention, tensor parallelism, OpenAI-compatible API. Pick this when you're serving more than one user.
+- [vLLM](https://github.com/vllm-project/vllm) - High-throughput, production-grade inference server. PagedAttention, tensor parallelism, standard chat-completion API compatible API. Pick this when you're serving more than one user.
 - [SGLang](https://github.com/sgl-project/sglang) - Newer high-throughput serving runtime focused on structured generation and complex prompting. Often faster than vLLM on supported models.
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI with broad backend support (Transformers, llama.cpp, ExLlama). The Swiss Army knife.
 - [koboldcpp](https://github.com/LostRuins/koboldcpp) - Single-binary llama.cpp distribution with a friendly UI, popular for story writing and roleplay.
 - [mlx-lm](https://github.com/ml-explore/mlx-examples/tree/main/llms) - Apple's MLX framework for native Apple Silicon inference. Best raw throughput on M-series Macs.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Compile LLMs to run on phones, browsers, and embedded devices via TVM.
-- [LocalAI](https://github.com/mudler/LocalAI) - Drop-in OpenAI API replacement. Supports LLMs, image gen, TTS, STT, embeddings in one binary.
+- [LocalAI](https://github.com/mudler/LocalAI) - Drop-in replacement for the standard chat-completion API. Supports LLMs, image gen, TTS, STT, embeddings in one binary.
 - [exllamav2](https://github.com/turboderp-org/exllamav2) - Fast inference of quantized models on consumer NVIDIA GPUs. Excellent for long-context use cases.
 - [mistral.rs](https://github.com/EricLBuehler/mistral.rs) - Rust-based inference engine, focus on speed and a clean API. CUDA, Metal, CPU.
 - [llamafile](https://github.com/Mozilla-Ocho/llamafile) - Distribute a model as a single executable that runs everywhere. Magic for sharing.
@@ -73,7 +73,7 @@ Front-ends that let humans actually use the runtimes above.
 - [GPT4All](https://gpt4all.io) - Friendly desktop chat client with a built-in model library. Solid first install for non-technical users.
 - [Msty](https://msty.app) - Slick cross-platform chat app supporting local and cloud models side-by-side. Closed source but free tier is generous.
 - [h2oGPT](https://github.com/h2oai/h2ogpt) - Enterprise-flavored local LLM + RAG platform from H2O.ai.
-- [Lobe Chat](https://github.com/lobehub/lobe-chat) - Pretty chat UI with plugin system; can be pointed at any OpenAI-compatible local server.
+- [Lobe Chat](https://github.com/lobehub/lobe-chat) - Pretty chat UI with plugin system; can be pointed at any standard chat-completion API compatible local server.
 - [Big-AGI](https://github.com/enricoros/big-AGI) - Feature-dense web UI: branching conversations, beam search, persona library.
 - [chatbox](https://github.com/chatboxai/chatbox) - Cross-platform desktop client; speaks to local APIs.
 - [Page Assist](https://github.com/n4ze3m/page-assist) - Browser extension that lets local LLMs see your current page. Surprisingly useful.
@@ -86,10 +86,10 @@ Front-ends that let humans actually use the runtimes above.
 
 Editor integrations that keep your codebase on your machine.
 
-- [Continue](https://continue.dev) - Open-source autocomplete + chat for VS Code and JetBrains. Pluggable backend (Ollama, LM Studio, vLLM, llama.cpp, anything OpenAI-compatible).
-- [Tabby](https://github.com/TabbyML/tabby) - Self-hosted code completion server (Rust). Drop-in replacement for Copilot for team use.
+- [Continue](https://continue.dev) - Open-source autocomplete + chat for VS Code and JetBrains. Pluggable backend (Ollama, LM Studio, vLLM, llama.cpp, anything standard chat-completion API compatible).
+- [Tabby](https://github.com/TabbyML/tabby) - Self-hosted code completion server (Rust). Team-scale alternative to cloud autocomplete services.
 - [twinny](https://github.com/twinnydotdev/twinny) - VS Code extension specifically built for Ollama-backed autocomplete and chat.
-- [Aider](https://github.com/Aider-AI/aider) - Terminal-based pair programmer. Works fully offline with any local OpenAI-compatible endpoint.
+- [Aider](https://github.com/Aider-AI/aider) - Terminal-based pair programmer. Works fully offline with any local standard chat-completion API compatible endpoint.
 - [Cline](https://github.com/cline/cline) - Agentic coding extension for VS Code; supports local model endpoints.
 - [llama-coder](https://github.com/ex3ndr/llama-coder) - VS Code extension; Ollama-only, focused on completions.
 - [Privy](https://github.com/srikanth235/privy) - Open-source autocomplete + chat focused on privacy.
@@ -121,10 +121,10 @@ Multi-step, tool-using systems that you can run end-to-end without cloud APIs.
 
 - [Letta](https://github.com/letta-ai/letta) (formerly MemGPT) - Stateful agents with long-term memory. Local-model friendly.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Run code on your machine via natural language. Local-model mode is well-supported.
-- [CrewAI](https://github.com/crewAIInc/crewAI) - Multi-agent orchestration framework. Pair with local OpenAI-compatible endpoint.
+- [CrewAI](https://github.com/crewAIInc/crewAI) - Multi-agent orchestration framework. Pair with local standard chat-completion API compatible endpoint.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's conversation-driven agent framework. Local backends supported.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Graph-based agent runtime from the LangChain team.
-- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework; works with any local OpenAI-compatible server.
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework; works with any local standard chat-completion API compatible server.
 - [smolagents](https://github.com/huggingface/smolagents) - Hugging Face's minimalist agent library; code-first agents.
 - [AgentKit](https://github.com/BCG-X-Official/agentkit) - Full-stack starter for production-grade agents.
 
