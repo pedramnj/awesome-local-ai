@@ -70,7 +70,7 @@ The engines that actually load weights and produce tokens. Pick one as the base 
 - [vLLM](https://github.com/vllm-project/vllm) — High-throughput, production-grade inference server. PagedAttention, tensor parallelism, OpenAI-compatible API. Pick this when you're serving more than one user.
 - [SGLang](https://github.com/sgl-project/sglang) — Newer high-throughput serving runtime focused on structured generation and complex prompting. Often faster than vLLM on supported models.
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) — Gradio web UI with broad backend support (Transformers, llama.cpp, ExLlama). The Swiss Army knife.
-- [koboldcpp](https://github.com/LostRuis/koboldcpp) — Single-binary llama.cpp distribution with a friendly UI, popular for story writing and roleplay.
+- [koboldcpp](https://github.com/LostRuins/koboldcpp) — Single-binary llama.cpp distribution with a friendly UI, popular for story writing and roleplay.
 - [mlx-lm](https://github.com/ml-explore/mlx-examples/tree/main/llms) — Apple's MLX framework for native Apple Silicon inference. Best raw throughput on M-series Macs.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) — Compile LLMs to run on phones, browsers, and embedded devices via TVM.
 - [LocalAI](https://github.com/mudler/LocalAI) — Drop-in OpenAI API replacement. Supports LLMs, image gen, TTS, STT, embeddings in one binary.
@@ -243,7 +243,7 @@ LLMs on your phone, on your watch, on a Pi.
 - [Maid](https://github.com/Mobile-Artificial-Intelligence/maid) — Cross-platform Flutter app.
 - [Layla](https://www.layla-network.ai) — Privacy-focused Android assistant.
 - [Apple Foundation Models](https://developer.apple.com/documentation/foundationmodels) — Apple's on-device model API (iOS 18.2+). Free, no API key, no data leaves the device.
-- [Picollm](https://picovoice.ai/platform/picollm/) — Mobile-first compressed-LLM inference SDK.
+- [picoLLM](https://github.com/Picovoice/picollm) — Mobile-first compressed-LLM inference SDK from Picovoice.
 
 ---
 
@@ -338,8 +338,8 @@ Real people fixing real problems in real time.
 - [Interconnects](https://www.interconnects.ai) (Nathan Lambert) — Technical, opinionated, deeply informed on open models.
 - [Latent Space](https://www.latent.space) — Podcast + newsletter; frequent local-AI coverage.
 - [Simon Willison's Weblog](https://simonwillison.net) — Practical experiments with local models; the best "what actually works today" log.
-- [The Local Maximum](https://thelocalmaximum.com) — Podcast covering AI from a practitioner angle.
 - [Hugging Face Daily Papers](https://huggingface.co/papers) — Curated paper firehose with discussion threads.
+- [The Gradient](https://thegradient.pub) — Long-form essays on ML research; broader than local-AI but often touches it.
 
 ---
 

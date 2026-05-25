@@ -1,0 +1,5 @@
+# Relative repo paths like ../../issues/new?template=... — valid on GitHub UI,
+# but lychee resolves them against the local filesystem and reports them as
+# missing files. Skip the file:// scheme entirely; we don't intentionally link
+# to any local files.
+^file://
