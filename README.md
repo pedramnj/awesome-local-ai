@@ -342,4 +342,3 @@ Quick version:
 2. Keep descriptions under one line.
 3. Be neutral and concrete. No hype, no marketing copy.
 4. Make sure the project meets the [bar](#awesome-local-ai-) - open source or genuinely free local tier, actively maintained, real install path.
-
