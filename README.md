@@ -120,6 +120,7 @@ Index your own files, query them with a local model.
 Multi-step, tool-using systems that you can run end-to-end without cloud APIs.
 
 - [Letta](https://github.com/letta-ai/letta) (formerly MemGPT) - Stateful agents with long-term memory. Local-model friendly.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Local-first memory lifecycle for coding agents with SQLite/FTS recall, audit, and forgetting.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Run code on your machine via natural language. Local-model mode is well-supported.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Multi-agent orchestration framework. Pair with local standard chat-completion API compatible endpoint.
 - [AutoGen](https://github.com/microsoft/autogen) - Microsoft's conversation-driven agent framework. Local backends supported.
