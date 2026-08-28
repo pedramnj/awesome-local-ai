@@ -52,6 +52,7 @@ The engines that actually load weights and produce tokens. Pick one as the base 
 - [text-generation-webui](https://github.com/oobabooga/text-generation-webui) - Gradio web UI with broad backend support (Transformers, llama.cpp, ExLlama). The Swiss Army knife.
 - [koboldcpp](https://github.com/LostRuins/koboldcpp) - Single-binary llama.cpp distribution with a friendly UI, popular for story writing and roleplay.
 - [mlx-lm](https://github.com/ml-explore/mlx-examples/tree/main/llms) - Apple's MLX framework for native Apple Silicon inference. Best raw throughput on M-series Macs.
+- [RapidMLX](https://github.com/raullenchai/Rapid-MLX) - Python MLX inference server for Apple Silicon with OpenAI- and Anthropic-compatible APIs, continuous batching, prompt caching, tool calling, and multimodal support.
 - [MLC LLM](https://github.com/mlc-ai/mlc-llm) - Compile LLMs to run on phones, browsers, and embedded devices via TVM.
 - [LocalAI](https://github.com/mudler/LocalAI) - Drop-in replacement for the standard chat-completion API. Supports LLMs, image gen, TTS, STT, embeddings in one binary.
 - [exllamav2](https://github.com/turboderp-org/exllamav2) - Fast inference of quantized models on consumer NVIDIA GPUs. Excellent for long-context use cases.
