@@ -112,6 +112,7 @@ Index your own files, query them with a local model.
 - [Cognita](https://github.com/truefoundry/cognita) - Modular RAG framework with UI.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Library for building RAG and structured-data agents. Local-first if you wire it up that way.
 - [Haystack](https://github.com/deepset-ai/haystack) - Production-oriented framework for search, RAG, and agents.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - Searchable screen and audio history with local Ollama support and API/MCP access; source-available with a free personal-use tier.
 
 ---
 
