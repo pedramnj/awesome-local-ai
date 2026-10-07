@@ -164,6 +164,7 @@ Multi-step, tool-using systems that you can run end-to-end without cloud APIs.
 - [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) - 82M-parameter TTS model with surprisingly good quality.
 - [StyleTTS 2](https://github.com/yl4579/StyleTTS2) - High-quality, style-controllable TTS.
 - [OpenVoice](https://github.com/myshell-ai/OpenVoice) - Voice cloning with cross-lingual support.
+- [Tsubaki TTS Engine](https://github.com/MrHryhorii/SmartStack/tree/main/ONNX_Runner) — Local C#/.NET TTS server combining Piper synthesis with OpenVoice V2 voice cloning, an OpenAI-compatible API, and Windows/Linux inference without Python.
 - [XTTS-v2](https://huggingface.co/coqui/XTTS-v2) - Multi-lingual zero-shot voice cloning.
 - [MeloTTS](https://github.com/myshell-ai/MeloTTS) - Multi-language TTS optimized for CPU inference.
 - [Bark](https://github.com/suno-ai/bark) - Generative audio model (speech + nonverbal sounds + music).
