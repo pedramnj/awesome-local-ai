@@ -100,6 +100,8 @@ Editor integrations that keep your codebase on your machine.
 
 ## RAG & Knowledge
 
+- [AIKS](https://github.com/Sunan869/aiks) — Local-first desktop app for turning supported coding-agent histories and public conversation shares into searchable, source-linked knowledge.
+
 Index your own files, query them with a local model.
 
 - [PrivateGPT](https://github.com/zylon-ai/private-gpt) - Pioneering "chat with your docs, 100% local" project. Battle-tested foundation.
